@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Todo app MODUL</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="container">
+            <!--MODUL-->
+            <div class="todo-wrapper">
+                <div class="todo-text-container">
+                    <h2>
+                        Todo app
+                    </h2>
+                </div>
+                <div class="todo-center">
+                    <div class="todo-input-container">
+                        <input type="text" name="todo" id="todo-text" class="todo-input" placeholder="whats in your mind today :)">
+                        <button class="todo-add-button" id="todo-add-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus-circle">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="12" y1="8" x2="12" y2="16"></line>
+                                <line x1="8" y1="12" x2="16" y2="12"></line>
+                            </svg>
+                        </button>
+                    </div>
+                    <ul class="todo-container" id="todo-container">
+                    </ul>
+                </div>
+            </div>
+            <!--MODUL-->
+        </div>
+    </div>
+    <!--MODUL SCRIPT-->
+    <script src='https://cdn.jsdelivr.net/npm/sweetalert2@9'></script>
+    <script  src="js/script.js"></script>
+    <!--MODUL SCRIPT-->
+</body>
+</html>
